@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+:root {
+    --nav-foot-color:rgb(0, 0, 0);
+}
+body{
+    
+    background-color: rgb(47, 42, 42);
+}
+.logo{
+    position: relative;
+    width: 120px;
+    left: -6px;
+}
+.name{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    /* top: 26px; */
+    left: -71px;
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    height:97px;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    transition: all 0.3s ease-in-out;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    /* background-color: red; */
+    margin: 0 14px;
+}
+nav ul li a{
+    /* background-color:yellow; */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+    
+}
+.menu ul li a:hover{
+    color:rgb(231, 75, 106) ;
+    font-size: 21px;
+}
+.fa-solid{
+    color: rgb(104, 101, 255);
+    margin: 8px;
+}
+.drpdwn{
+    display: none;
+}
+nav ul li:hover .drpdwn{
+    background-color: rgb(253, 224, 251);
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+nav ul li:hover .drpdwn ul{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li .drpdwn ul a{
+    color: black;
+    /* background-color: white; */
+}
+.fa-brands{
+    margin: 20px 20px 20px -20px;
+    color: rgb(236, 114, 0);
+    font-size: 34px;
+    
+}
+.menu .rotate{
+    transition: all 0.5s ease-in-out;
+}
+ .menu .rotate:hover{
+    transform: rotate(180deg);
+}

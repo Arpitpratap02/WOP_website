@@ -1,0 +1,73 @@
+.txt1{
+    color: rgb(43, 241, 43);
+    padding: 34px;
+    font-size: 40px;
+    /* background-color: cornflowerblue; */
+
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    height: 45vh;
+}
+.img{
+    background-size: contain;
+    background: url("/images/coding_image.webp");
+    background-attachment: scroll;
+    /* border: 2px solid red; */
+    /* border-radius: 0 0 50% 50%; */
+}
+.logo_html .fa-brands {
+    margin: 10px 10px 0px 10px;
+    font-size: 200px;
+    color: rgb(204, 63, 28);
+    transition: all 0.3s ease-in-out;
+    
+}
+.logo_html .fa-brands:hover {
+    display: inline-block;
+    transform:perspective(300PX) translate3D(20px,10px,50px );
+    box-shadow: 10px 20px rgb(19, 14, 14);
+    
+    /* background-color: violet; */
+}
+
+.logo_css .fa-brands {
+    margin: 10px 10px 0px 10px;
+    font-size: 200px;
+    color: rgb(76, 44, 218);
+    transition: all 0.3s ease-in-out;
+}
+.logo_css .fa-brands:hover{
+    
+    transform:perspective(300px) translate3D(-20px,-10px,45PX );
+    box-shadow: 10px 20px rgb(19, 14, 14);
+
+}
+.txt_css{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.txt_css h1{
+    color: blue;
+}
+.js{
+    background-color: rgb(190, 183, 178);
+    display: flex;
+    /* justify-content: space-between; */
+    height: 35vh;
+}
+.logo_js .fa-brands {
+    margin: 10px 10px 0px 10px;
+    font-size: 200px;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    /* width: 20px; */
+    height: 180px;
+
+}
+.logo_js .fa-brands:hover{
+    transform:perspective(300px) translate3d(20px,-10px,45px );
+    box-shadow: 10px 20px rgb(19, 14, 14);
+
+}
+
